@@ -7,13 +7,13 @@ h1 {
 	text-align: center;
 }
 
-.assignment {
+.assign {
 	display: flex;
 	padding: 10px;
 	margin: 10px;
 	background: silver;
 }
-.assignment img {
+.assign img {
 	width: 200px;
 	padding: 10px;
 }
