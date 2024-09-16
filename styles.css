@@ -1,0 +1,13 @@
+body {
+    background-color: wheat;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    text-align: center;
+    color:darkblue;
+}
+.about {
+    text-align: right;
+    width: 100%;
+    color: yellowgreen;
+}
