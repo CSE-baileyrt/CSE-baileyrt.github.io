@@ -48,7 +48,7 @@ a {  /* change the appearance of ALL links */
 
 .about img {
     width: 150px;
-    height: 200px;
+    /* height: 200px; */
     border-radius: 25%;
     border: 2px solid  rgb(126, 14, 201);
 }
@@ -58,4 +58,8 @@ a {  /* change the appearance of ALL links */
     text-align: center;
     margin: auto;
     line-height: 125%;
+}
+
+.contact a {
+    color: black;
 }
