@@ -11,8 +11,7 @@ h1 {
 	flex-wrap:wrap;  
 } 
 .projects h2 {
-	display: block;
-	flex-wrap: nowrap;
+	width: 100%;
 }
 .project {
     width: 30%;
@@ -28,4 +27,7 @@ h1 {
     border: 2px solid navy;
     display: block;
 }
-
+.project p {
+    text-align: center;
+    margin: 15px;
+}
