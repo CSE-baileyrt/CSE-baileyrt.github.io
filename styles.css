@@ -19,6 +19,7 @@ h1 {
     padding: 20px 10px;
     background: lightslategray;
     border-radius: 25%;
+    text-align: center;
 }
 .project img{
     width: 300px;
@@ -28,6 +29,5 @@ h1 {
     display: block;
 }
 .project p {
-    text-align: center;
     margin: 15px;
 }
