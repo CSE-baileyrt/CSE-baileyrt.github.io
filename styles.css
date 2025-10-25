@@ -6,28 +6,40 @@ h1 {
 	color: darkslategrey;
 	text-align: center;
 }
-.projects {  
+.projects { 
+    /* make the blobs float side-by-side */
 	display:flex; 
 	flex-wrap:wrap;  
 } 
 .projects h2 {
+    /* display the h2 on its own line, not with the section blobs */
 	width: 100%;
 }
 .project {
+    /* form the section blobs */
     width: 30%;
     margin: 10px;
     padding: 20px 10px;
     background: lightslategray;
+    /* rounded corners for the blobs */
     border-radius: 25%;
-    text-align: center;
 }
-.project img{
+.project h3 {
+    /* pull the h3 text away from the left blob wall */
+    margin-left: 15px;
+}
+.project img {
+    /* adjust your image sizes as needed */
     width: 300px;
     height: 300px;
     margin: 10px;
     border: 2px solid navy;
     display: block;
+    /* center the images inside the blobs */
+    text-align: center;
 }
 .project p {
+    /* center the p text in the blob */
+    text-align: center;
     margin: 15px;
 }
