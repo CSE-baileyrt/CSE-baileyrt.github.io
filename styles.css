@@ -26,13 +26,13 @@ h1 {
 }
 .project h3 {
     /* pull the h3 text away from the left blob wall */
-    margin-left: 15px;
+    margin-left: 50px;
 }
 .project img {
     /* adjust your image sizes as needed */
-    width: 300px;
+    width: 400px;
     height: 300px;
-    margin: 10px;
+    margin: 10px auto;
     border: 2px solid navy;
     display: block;
     /* center the images inside the blobs */
