@@ -10,11 +10,22 @@ h1 {
 	display:flex; 
 	flex-wrap:wrap;  
 } 
+.projects h2 {
+	display: block;
+	flex-wrap: nowrap;
+}
 .project {
     width: 30%;
     margin: 10px;
     padding: 20px 10px;
-    background: white;  /* pick a color */
+    background: lightslategray;
     border-radius: 25%;
+}
+.project img{
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    border: 2px solid navy;
+    display: block;
 }
 
